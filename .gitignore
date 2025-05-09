@@ -1,6 +1,7 @@
 */data/*
 hydrad_results/*
 hydrad-clean
+hydrad-*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
