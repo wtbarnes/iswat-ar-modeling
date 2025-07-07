@@ -1,0 +1,19 @@
+[project]
+name = "iswat-ar-modeling"
+version = "0.1.0"
+description = "Various materials for modeling active region emission using multi-stranded models as part of the ISWAT irradiance modeling team."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "greensfield",
+    "synthesizar[all]",
+]
+
+[tool.uv.sources]
+synthesizar = { git = "https://github.com/wtbarnes/synthesizAR" }
+greensfield = { git = "https://github.com/wtbarnes/greensfield" }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
